@@ -39,7 +39,83 @@ Ini adalah aplikasi CRUD sederhana yang dibuat menggunakan Java dan SQLite3.
 ![Flowchart](./image/flowchart.jpg)
 
 ## **Penjelasan**	
-	
+## APLIKASI MANAJEMEN RESTORAN
+
+Sebuah aplikasi CRUD sederhana yang dibuat menggunakan Bahasa Java dan SQLite3.
+
+- Aplikasi ini berfungsi untuk memanajemen restoran mulai dari data pelanggan, menu, kategori menu, dan pesanan.
+
+- Fitur yang di dapatkan di dalam aplikasi ini adalah :
+
+1. Menu Data Pelanggan
+      - Melihat Data Pelanggan
+      - Menambah Data Pelanggan
+      - Mengubah Data Pelanggan
+      - Menghapus Data Pelanggan
+
+2. Menu Data Menu Pesanan
+      - Melihat Data Menu
+      - Menambah Data Menu
+      - Mengubah Data Menu
+      - Menghapus Data Menu
+
+3. Menu Data Kategori Menu
+      - Melihat Data Kategori Menu
+      - Menambah Data Kategori Menu
+      - Mengubah Data Kategori Menu
+      - Menghapus Data Kategori Menu
+
+4. Menu Pesanan
+      - Melihat Daftar Pesanan
+      - Melihat Rincian Pesanan
+      - Menambah Pesanan
+      - Mengubah Pesanan
+      - Menghapus Pesanan
+
+
+## PENJELASAN CODINGAN
+
+- Terdapat 5 class pada aplikasi kami :
+
+1. Class restoran : yaitu class utama / main untuk menjalankan judul aplikasi, menu utama, dan class lainnya.
+
+2. Class pelanggan : yaitu class untuk memanajemen menu data pelanggan
+
+3. Class produk : yaitu class untuk memanajemen menu data menu pesanan
+
+4. Class pesanan : yaitu class untuk memanajemen menu pesanan
+
+5. Class util : yaitu class untuk fitur-fitur pendukung class yang lain. Seperti fitur untuk membuat tabel, fitur inputan, fitur tahan layar, dll.
+
+
+- Disini kami menggunakan Scanner sebagai inputan
+- Menggunakan Switch case dan if sebagai statement atau pilihan.
+- Try catch : untuk menangkap error jika terjadi error maka program menampilkan pesan error
+- Menggunakan for looping untuk perulangan
+- Menggunakan Getter untuk mendapatkan nilai.
+
+- Menggunakan beberapa library java seperti :
+1. java.sql.PreparedStatement: Buat bikin dan eksekusi query SQL dengan parameter, jaga-jaga dari serangan SQL Injection.
+
+2. java.sql.ResultSet: Menangkap data yang balik dari database setelah menjalankan query SELECT.
+
+3. java.sql.Statement: Menjalankan query SQL dasar.
+
+4. java.util.ArrayList: Koleksi yang ukurannya bisa naik turun sesuai kebutuhan, enak buat simpan data.
+
+5. java.util.Arrays: Memberikan banyak operasi siap pakai buat mengatur array, seperti sorting atau konversi.
+
+6. java.util.LinkedHashMap : Untuk menyimpan data dengan menjaga urutan data. Ini sangat berguna ketika menghapus data atau mengubah data
+
+7. java.util.Scanner : Untuk inputan scanner
+
+8. java.util.Locale: untuk membuat format tanggal, angka, atau harga sesuai lokasi kita.
+
+9. java.sql.Connection: untuk koneksi ke database pake JDBC.
+
+10. java.sql.DriverManager: untuk mendapatkan koneksi ke database. Menyediakan cara menyambungkan ke lokasi database berdasarkan URL database.
+
+11. java.text.NumberFormat: untuk format angka ke format lokal.
 
 ## Fitur
 - [x] Data Pelanggan
